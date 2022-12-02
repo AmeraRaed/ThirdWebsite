@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --mainColor:#10122f;
+    --secColor:#fd6131;
+    --box-shadow:0 .5rem 1rem rgb(189, 187, 187);
+}
+nav{
+    background-color: var(--mainColor)!important;
+}
+.my-nav-icon{
+    color: white;
+}
+body{
+    /* background-color: rgb(119, 119, 119) !important; */
+    background-color: var(--mainColor) !important;
+}
+hr{
+    color: white;
+}
+.myicon{
+    height: 30px;
+    width: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 17px;
+}
+.accordion-header:hover{
+background-color: var(--mainColor)!important;
+}
+.fixedimg2 {
+    width: 100%;
+    background-image: url(../images/bg1-background-future-innovation-disruptive-technology.jpg);
+}
+.my-card-title{
+    color: var(--mainColor);
+    font-weight: bold;
+}
+.fixedimg1 {
+    width: 100%;
+    background-image: url(../images/AdobeStock_227787913_Preview.jpeg);
+}
+.fixedimg {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
